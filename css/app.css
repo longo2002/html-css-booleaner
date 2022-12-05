@@ -54,3 +54,21 @@ th{
 .rigatabellagenerico{
     background-color: rgb(175, 222, 238);
 }
+
+
+footer{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+#foot-titoteletto{
+    color: gray;
+    font-weight: bold;
+}
+
+.img-footer{
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
