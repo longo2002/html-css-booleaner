@@ -1,0 +1,36 @@
+header{
+    background-color: rgb(97, 158, 238);
+    background-image: url("../img/img/pattern.png");
+    background-size: contain;
+}
+
+#immagine-header{
+    width: 10%;
+    height: auto;
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+
+main{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.paragrafo-main{
+    text-align: justify;
+}
+
+#tabella{
+    background-color: lightblue;
+    border: 1px solid black;
+
+}
+
+th{
+    background-color: lightblue;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
