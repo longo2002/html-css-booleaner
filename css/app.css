@@ -12,6 +12,24 @@ header{
     padding-left: 5%;
 }
 
+h1{
+    margin-bottom: 0%;
+}
+
+#autore-articolo{
+    text-align: left;
+    color: grey;
+    margin-top: 0%;
+}
+
+#data{
+    font-size: smaller;
+    margin-top: 0%;
+}
+
+#descrizione-foto{
+    font-size: smaller;
+}
 
 main{
     padding-left: 5%;
@@ -22,15 +40,17 @@ main{
     text-align: justify;
 }
 
-#tabella{
-    background-color: lightblue;
-    border: 1px solid black;
-
+#lista{
+    padding-left: 1%;
 }
 
 th{
-    background-color: lightblue;
-    border: 1px solid black;
+    background-color: rgb(72, 203, 247);
+    border: 5px solid transparent;
     border-collapse: collapse;
 
+}
+
+.rigatabellagenerico{
+    background-color: rgb(175, 222, 238);
 }
