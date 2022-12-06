@@ -1,10 +1,28 @@
-header{
-    background-color: rgb(97, 158, 238);
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+address{
+    font-style: normal;
+}
+
+figure{
+    margin: 0;
+}
+
+ul{
+    padding-left: 15px;
+
+}
+
+.main-header{
+    background-color: dodgerblue;
     background-image: url("../img/img/pattern.png");
     background-size: contain;
 }
 
-#immagine-header{
+.logo-header{
     width: 10%;
     height: auto;
     text-align: left;
@@ -12,24 +30,27 @@ header{
     padding-left: 5%;
 }
 
-h1{
+.h1{
     margin-bottom: 0%;
 }
 
-#autore-articolo{
+.autore-articolo{
     text-align: left;
     color: grey;
-    margin-top: 0%;
+    font-size: 18px;
+    margin-bottom: 1%;
 }
 
-#data{
-    font-size: smaller;
-    margin-top: 0%;
+/* selettore più complesso classe madre "autore" e seleziono il tag figlio "time" */
+
+.autore-articolo time {
+ font-size: 14px;
 }
 
-#descrizione-foto{
-    font-size: smaller;
-}
+.autore-articolo a {
+    color: dodgerblue;
+    font-weight: bold;
+   }
 
 main{
     padding-left: 5%;
@@ -40,35 +61,46 @@ main{
     text-align: justify;
 }
 
-#lista{
-    padding-left: 1%;
+.tabella{
+    width: 100%;
+    border: 5px solid transparent;
+    border-collapse: collapse;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-50{
+    width: 50%;
 }
 
 th{
     background-color: rgb(72, 203, 247);
-    border: 5px solid transparent;
-    border-collapse: collapse;
+    color: white;
+    text-align: left;
 
 }
 
-.rigatabellagenerico{
-    background-color: rgb(175, 222, 238);
+.bg-acqua{
+    background-color: aqua ;
 }
 
 
 footer{
     padding-left: 5%;
     padding-right: 5%;
+    width: 200px;
+    height: 150px
 }
 
 
-#foot-titoteletto{
-    color: gray;
-    font-weight: bold;
+.related-post{
+    color: white;
+    background-color: black;
 }
 
-.img-footer{
-    display: block;
-    margin-top: 1%;
-    margin-bottom: 1%;
+.rect{
+    width: 200px;
+    height: 150px;
 }
